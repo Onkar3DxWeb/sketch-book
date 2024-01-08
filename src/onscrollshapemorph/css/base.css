@@ -414,6 +414,16 @@ body #cdawrap {
 	margin-top: 10vh;
 }
 
+.content__text-tiny1 {
+	text-transform: none;
+	font-family: 'Tenon', sans-serif;
+	font-size: 1.5rem;
+	font-weight: 300;
+	max-width: 400px;
+	line-height: 1.2;
+	margin-top: 10vh;
+}
+
 @media screen and (min-width: 53em) {
 	.frame {
 		grid-template-columns: 1fr auto auto auto;
@@ -450,4 +460,5 @@ body #cdawrap {
 	    justify-self: end;
 	}
 
+	
 }
